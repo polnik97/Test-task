@@ -1,0 +1,57 @@
+.marg{
+	margin-bottom: 10px; 
+}
+
+#addTipping{
+	margin: 20px;
+	padding: 15px;
+	border-radius: 4px;
+
+	border: 1px solid #dfdfdf;
+}
+
+.myfild{
+	
+	margin: 20px 0px 20px 0px;
+
+	border-radius: 4px;
+
+	border: 1px solid #dfdfdf;
+}
+
+label{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+button{
+	margin: 20px;
+}
+
+.hidden{
+	display: none;
+}
+
+.secondForm{
+	margin: 15px 10px 15px 10px;
+}
+
+h4{
+	margin-top: 20px;
+}
+
+#addTipping label{
+	font-weight: normal;
+}
+
+#firstForm{
+	max-width: 1000px;
+}
+
+.secondPart label{
+	font-weight: normal;
+}
+
+.secondPart h4{
+	font-size: 20px;
+}
