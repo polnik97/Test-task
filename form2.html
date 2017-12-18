@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Test task</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Test.css">
+    <script src="https://use.fontawesome.com/19f9691874.js"></script>
+  </head>
+  <body>
+    
+
+	<div class="container">
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+		  <li class="nav-item active"> 
+		    <a class="nav-link" id="home-tab" data-toggle="tab" href="#req" role="tab" aria-controls="req" aria-selected="true">Заявки</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">Статусы и события</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="patient-tab" data-toggle="tab" href="#patient" role="tab" aria-controls="patient" aria-selected="false">Пациент</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="donors-tab" data-toggle="tab" href="#donors" role="tab" aria-controls="donors" aria-selected="false">Доноры</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="files-tab" data-toggle="tab" href="#files" role="tab" aria-controls="files" aria-selected="false">Файлы</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active" id="req" role="tabpanel" aria-labelledby="req-tab"></div>
+		  <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab"></div>
+		  <div class="tab-pane fade" id="patient" role="tabpanel" aria-labelledby="patient-tab"></div>
+		  <div class="tab-pane fade" id="donors" role="tabpanel" aria-labelledby="donors-tab" >
+		  	
+		  	<div class="myfild">
+		  	<form  name="donors" style="margin: 10px 0px 10px 20px">
+		  		<div  >
+					<div class="row">
+					  		<div class="col-md-1 ">
+							</div>
+					  		<div class="col-md-2 ">
+					  			<label>Саблинги</label> <br>
+						  		<div class="form-check form-check-inline">
+						  			<input class="form-check-inpute" type="radio" name="sabling" value="no"> Нет
+						  			<input class="form-check-inpute" type="radio" name="sabling" value="yes active"> Есть
+						  		</div>	
+					  		</div>
+
+					  		<div class="col-md-3 ">
+					  			<label>Поиск неродственного донора</label> <br>
+						  		<div class="form-check form-check-inline">
+						  			<input class="form-check-inpute" type="radio" name="aliandonor" value="no"> Нет
+						  			<input class="form-check-inpute" type="radio" name="aliandonor" value="yes"> Да
+						  		</div>	
+					  		</div>
+					  		<div class="col-md-0">
+					  			
+					  		</div>
+					  		<div class="col-md-3 md-2">
+					  			<label>Международний ID реципиента</label> 
+						  		<input type="text" class="form-control" id="wID" >
+					  		</div>
+					  	</div>
+
+						<div class="row">
+					  		<div class="col-md-1 ">
+					  			
+					  		</div>
+					  		<div class="col-md-2 ">
+					  			<label>Дата начала поиска</label> <br>
+						  		<input type="text" class="form-control" id="BMDWstartSearch" placeholder="дд.мм.гггг">
+					  		</div>
+
+					  		<div class="col-md-2 ">
+					  			<label>Дата окончания поиска</label> <br>
+						  		<input type="text" class="form-control co-md-3" id="BMDWendSearch" placeholder="дд.мм.гггг">
+						  	</div>	
+					  	</div>
+
+					  	<div class="row">
+					  		<div class="col-md-1 ">
+					  			<div style="font-size: 13px; text-transform: uppercase; font-weight: bold; margin-top: 20px ;">bmdw</div>
+					  		</div>
+					  		<div class="col-md-2 ">
+					  			<label>Совместимые</label> <br>
+						  		<input type="text" class="form-control" id="RFstartSearch" placeholder="Число">
+					  		</div>
+
+					  		<div class="col-md-2 ">
+					  			<label>Потенциальные</label> <br>
+						  		<input type="text" class="form-control co-md-3" id="RFendSearch" placeholder="Число">
+						  	</div>
+
+						  	<div class="col-md-0">
+						  		
+						  	</div>	
+
+						  	<div class="col-md-1 ">
+					  			<div style="font-size: 13px; text-transform: uppercase; font-weight: bold; margin-top: 20px ;">рф</div>
+					  		</div>
+
+					  		<div class="col-md-2 ">
+					  			<label>Совместимые</label> <br>
+						  		<input type="text" class="form-control" id="appropriate" placeholder="Число">
+					  		</div>
+
+					  		<div class="col-md-2 ">
+					  			<label>Потенциальные</label> <br>
+						  		<input type="text" class="form-control co-md-3" id="potential" placeholder="Число">
+						  	</div>	
+					  	</div>
+				</div>
+			</form>
+		</div>
+
+		</div>
+
+		  <div class="tab-pane fade" id="files" role="tabpanel" aria-labelledby="files-tab"></div>
+		</div>
+	</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="scripts/myscript.js"></script>
+  </body>
+</html>

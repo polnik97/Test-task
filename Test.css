@@ -42,14 +42,16 @@ h4{
 
 #addTipping label{
 	font-weight: normal;
+
 }
 
 #firstForm{
-	max-width: 1000px;
+
 }
 
 .secondPart label{
 	font-weight: normal;
+	font-size: 15px;
 }
 
 .secondPart h4{
